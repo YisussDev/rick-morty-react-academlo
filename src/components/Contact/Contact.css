@@ -1,0 +1,28 @@
+.Contact{
+    height: 180px;
+    width: 80px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    z-index: 1000000;
+    right: 20px;
+    bottom: 100px;
+
+}
+.Contact > a {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--color-card);
+    color: white;
+    font-size: 3rem;
+    transition: 0.3s linear;
+}
+.Contact > a:hover{
+    cursor: pointer;
+    background-color: var(--color-blue);
+}

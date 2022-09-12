@@ -1,0 +1,43 @@
+.ButtonsPage {
+    height: 4rem;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    margin-bottom: 20px;
+}
+.ButtonsPage > button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--color-blue);
+    color: white;
+    transition: 0.3s linear;
+}
+.visible{
+    display: flex;
+    column-gap: 10px;
+}
+.visible > button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--color-card);
+    color: white;
+    transition: 0.3s linear;
+}
+.visible > button:nth-child(1){
+    background-color: white;
+    color: black;
+}
+.visible > button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.ButtonsPage > button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
